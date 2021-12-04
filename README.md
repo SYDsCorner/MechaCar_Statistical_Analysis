@@ -16,7 +16,7 @@ The purpose of this analysis is to learn how to use R and statistics in order to
 - Software:
    - RStudio 2021.09.1
    
-- Data source: 
+- Data sources: 
    - [MechaCar_mpg.csv](https://github.com/SYDsCorner/MechaCar_Statistical_Analysis/blob/main/Resources/MechaCar_mpg.csv)
    - [Suspension_Coil.csv](https://github.com/SYDsCorner/MechaCar_Statistical_Analysis/blob/main/Resources/Suspension_Coil.csv)
 
