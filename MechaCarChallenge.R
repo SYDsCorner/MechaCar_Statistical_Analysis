@@ -56,6 +56,3 @@ t.test(subset(suspension_coil$PSI, suspension_coil$Manufacturing_Lot == "Lot2"),
 t.test(subset(suspension_coil$PSI, suspension_coil$Manufacturing_Lot == "Lot3"), mu = 1500)
 
 
-
-
-
