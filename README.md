@@ -23,7 +23,9 @@ The purpose of this analysis is to learn how to use R and statistics in order to
 
 ## Deliverable 1: Linear Regression to Predict MPG
 
-![D1_linear_regression](https://user-images.githubusercontent.com/89308251/144701176-7bbebd12-3376-407f-8bbd-3a123dfa33b7.png)
+<p align="center">
+  <img width="945" height="589" src="https://user-images.githubusercontent.com/89308251/144701176-7bbebd12-3376-407f-8bbd-3a123dfa33b7.png">
+</p>
 
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
@@ -42,9 +44,9 @@ The purpose of this analysis is to learn how to use R and statistics in order to
 
 ## Deliverable 2: Summary Statistics on Suspension Coils
 
-
-![D2_summaries](https://user-images.githubusercontent.com/89308251/144700414-2066ccb2-c5b7-4bda-816d-6d78411e66f6.png)
-
+<p align="center">
+  <img width="522" height="376" src="https://user-images.githubusercontent.com/89308251/144700414-2066ccb2-c5b7-4bda-816d-6d78411e66f6.png">
+</p>
 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
@@ -55,7 +57,9 @@ The purpose of this analysis is to learn how to use R and statistics in order to
 
 ## Deliverable 3: T-Tests on Suspension Coils
 
-![D3_ttest_lots](https://user-images.githubusercontent.com/89308251/144701025-ed683eca-a9ec-4d16-9716-0558adf427b5.png)
+<p align="center">
+  <img width="509" height="211" src="https://user-images.githubusercontent.com/89308251/144701025-ed683eca-a9ec-4d16-9716-0558adf427b5.png">
+</p>
 
 - **Summary of t-Test across all manufacturing lots**
 
@@ -63,7 +67,10 @@ The purpose of this analysis is to learn how to use R and statistics in order to
 
 --------------------------------------------------
 
-![D3_ttest_each_lot](https://user-images.githubusercontent.com/89308251/144701308-cffbe63d-e915-4596-b527-0c03a9540b01.png)
+<p align="center">
+  <img width="867" height="601" src="https://user-images.githubusercontent.com/89308251/144701308-cffbe63d-e915-4596-b527-0c03a9540b01.png">
+</p>
+
 
 - **Summary of t-Test for each manufacturing lot**
 
