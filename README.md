@@ -4,8 +4,7 @@
 
 ### Purpose:
 
-  The purpose of this analysis is to learn how to use R and statistics in order to analyze vehicle data.
-
+  The purpose of this analysis is to learn how to use R and statistics in order to analyze vehicle data. 
   
 ## Resources
 - Software:
@@ -23,7 +22,7 @@
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
-   - According to our results, vehicle length and ground clearance (as well as intercept) are statistically unlikely to provide random amounts of variance to the linear model.  In other words the vehicle length and ground clearance have a significant impact on the mpg values (fuel-efficiency).
+   - According to our results on *Pr(>|t|)* value , vehicle length and ground clearance (as well as intercept) are statistically unlikely to provide random amounts of variance to the linear model.  In other words the vehicle length and ground clearance have a significant impact on the mpg values (fuel-efficiency).
 
 
 - Is the slope of the linear model considered to be zero? Why or why not?
@@ -67,6 +66,35 @@
    - **Lot 2:** our p-value (0.60) is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
    - **Lot 3:** our p-value (0.04) is lower than our significance level. Therefore, we would have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically different.
+
+
+## Deliverable 4: Study Design: MechaCar vs Competition
+
+> There are lot of metrics that would be of interest to a consumer for example cost, city or highway fuel efficiency, horse power, maintenance cost, safety rating, etc. For my study design, I would choose 2 metrics that would interested to figure out like "safety rating to cost ratio" or safety rating divided by cost to get the value score.
+
+
+- What metric or metrics are you going to test?
+   - **cost** and **safety rating**
+
+- What is the null hypothesis or alternative hypothesis?
+   - **Null Hypothesis:** the average safety value of a mechacar car = the population mean value-safety score
+   - **Alternative Hypothesis:** the average safety value of a mechacar car > the population mean value-safety score
+
+- What statistical test would you use to test the hypothesis? And why?
+   - **One-Sample t-Test:** the success metric is numerical (value score) and the sample size is large (can compare to all car types)
+
+- What data is needed to run the statistical test?
+   - Safety data from Mechacar testing / Price of MechaCar cars
+   - Estimated average safety scores for population / Estimated average price for population
+
+
+
+
+
+
+
+
+
 
 
 
