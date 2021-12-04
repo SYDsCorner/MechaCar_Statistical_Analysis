@@ -6,7 +6,6 @@ library(dplyr)
 #  Linear Regression to Predict MPG  #
 # ---------------------------------- #
 
-
 # Import dataset
 mecha_car <- read.csv("Resources/MechaCar_mpg.csv", check.names = F, stringsAsFactors = F)
 
@@ -19,12 +18,10 @@ lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AW
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data = mecha_car))
 
 
-
 # --------------------------------------------- #
 #                 Deliverable 2                 #
 #  Create Visualizations for the Trip Analysis  #
 # --------------------------------------------- #
-
 
 # Import dataset
 suspension_coil <- read.csv("Resources/Suspension_Coil.csv", check.names = F, stringsAsFactors = F)
@@ -45,16 +42,13 @@ lot_summary <- suspension_coil %>%
             SD = sd(PSI), .groups = "keep")
 
 
-
 # ------------------------------ #
 #         Deliverable 3          #
 #  T-Tests on Suspension Coils   #
 # ------------------------------ #
 
-
 # Perform t-test across all manufacturing lots
 t.test(suspension_coil$PSI, mu = 1500)
-
 
 # Perform t-test for each manufacturing lot
 t.test(subset(suspension_coil$PSI, suspension_coil$Manufacturing_Lot == "Lot1"), mu = 1500)
